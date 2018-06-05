@@ -115,6 +115,17 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Metal.cpp" />
+    <ClCompile Include="Neh.cpp" />
+    <ClCompile Include="Priorytet.cpp" />
+    <ClCompile Include="Zadanie.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Metal.h" />
+    <ClInclude Include="Neh.h" />
+    <ClInclude Include="Priorytet.h" />
+    <ClInclude Include="Zadanie.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
